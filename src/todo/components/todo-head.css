@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  min-width: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.TodoHead {
+  background-color: lightblue;
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+}
+
+.TodoHead:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.TodoHeadTitle {
+  margin: 5px;
+}
+
+.task-input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addTask:hover {
+  background-color: #bbb;
+}
+
+.addTask {
+  padding: 10px;
+  width: 20%;
+  margin-left: 3%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}

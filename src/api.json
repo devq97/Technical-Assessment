@@ -1,0 +1,38 @@
+{
+  "TodoList": [
+    {
+      "id": "1",
+      "name": "Lavar los trastes"
+    },
+    {
+      "id": "2",
+      "name": "Sacar al perro"
+    },
+    {
+      "id": "3",
+      "name": "Hacer la tarea"
+    },
+    {
+      "id": "4",
+      "name": "Presentar prueba técnica"
+    },
+    {
+      "id": "5",
+      "name": "Hacer la cena"
+    }
+  ],
+  "Users": [
+    {
+      "id": "111",
+      "name": "Carlos Pineda",
+      "email": "carlosPineda@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "222",
+      "name": "David Vargas",
+      "email": "devq97@gmail.com",
+      "password": "54321"
+    }
+  ]
+}
