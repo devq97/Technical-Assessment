@@ -30,6 +30,8 @@ function login(state, action) {
             ...state,
             login: [action.payload]
           }
+        }else {
+          console.log("mal");
         }
     }
     default:

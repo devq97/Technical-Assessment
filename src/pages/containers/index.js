@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { Button, FormGroup, FormControl, ControlLabel, TextInput } from "react-bootstrap";
 import "./Login.css";
 import { connect } from 'react-redux';
 
@@ -64,6 +64,14 @@ class Login extends Component {
           >
             Login
           </Button>
+          <Button
+            bsStyle="primary"
+            block
+            bsSize="xsmall"
+          >
+            No has iniciado sesión
+          </Button>
+
         </form>
       </div>
     );
@@ -72,7 +80,7 @@ class Login extends Component {
 
 function mapStateToProps(state, props) {
   return {
-    Users: state.Users 
+    Users: state.Users
   }
 }
 
